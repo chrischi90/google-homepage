@@ -1,0 +1,144 @@
+body {
+	overflow: hidden;
+}
+
+a {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #404040;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+.nav {
+	float: right;
+	margin: 7px 15px 0 0;
+
+}
+
+li {
+	display: inline-block;
+  	vertical-align: middle;
+  	margin-right: 10px;
+}
+
+ul li:nth-child(4),
+ul li:nth-child(5),
+ul li:nth-child(7) {
+  min-width: 30px;
+  min-height: 30px;   
+}
+
+
+.bell {
+  background-image: url("../img/sprite.png");
+  background-position: -69px -69px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.apps {
+  background-image: url("../img/sprite.png");
+  background-position: -69px -854px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.share {
+  border-radius: 1px;
+  background-color: #F4F4F4;
+  padding: 7px 15px;
+  
+}
+
+.share:hover {
+  background-color: #E7E7E7;
+  text-decoration: none;
+}
+
+.facePic {
+  background-image: url("../img/estheralee.jpg");
+  width: 32px;
+  height: 32px;
+  background-size: 32px 32px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.mainContainer {
+	padding-top: 145px;
+}
+
+#mainLogo {
+	width: 269px;
+	height: 95px;
+	margin-bottom: 20px;
+  	display: block;
+}
+.searchBar {
+  	margin-bottom: 15px;
+  	width: 570px;
+  	height: 29px;
+}
+
+#searchInput {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 0 0 4px;
+	display: inline-block;
+	float: left;
+	width: 535px;
+	height: 27px;
+	border-top: 1px solid #dcdcdc;
+	border-right: none;
+	border-bottom: 1px solid #dcdcdc;
+	border-left: 1px solid #dcdcdc;
+}
+
+.mic {
+	display: inline-block;
+	float: right;
+	width: 29px;
+	height: 27px;
+	border-top: 1px solid #dcdcdc;
+	border-right: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	border-left: none;
+}
+
+.mic img{
+	padding-top: 2px;
+	width: auto;
+	height: 22px;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
