@@ -120,7 +120,22 @@ ul li:nth-child(7) {
 }
 
 
+footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	min-width: 100%;
+	bottom: 0;
+	position: absolute;
+}
 
+.footerLeft {
+	float: left;
+}
+
+.footerRight {
+	float: right;
+	padding-right: 30px;
+}
 
 
 
